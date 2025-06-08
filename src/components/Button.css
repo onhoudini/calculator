@@ -1,0 +1,54 @@
+:root {
+    --bg-button: rgb(70,59,59);
+    --border-button: solid 1px #888;
+}
+
+.button {
+    font-size: 1.4em;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+    color: white;
+}
+
+.button:active{
+    background-color: rgb(70,59,59, 0.6);
+}
+
+.button.double{
+    grid-column: span 2;
+}
+
+
+.button.quadruple{
+    grid-column: span 4;
+}
+
+.button.equals{
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: rgb(53, 191, 233);
+}
+
+.button.button.equals:active{
+    background-color: rgb(53, 191, 233, 0.6);
+}
+
+
+.button.delete{
+    background-color: rgb(233, 62, 50);
+}
+
+.button.delete:active{
+    background-color: rgb(233, 62, 50, 0.6);
+}
+
+.button.operation{
+    background-color: rgb(226, 152, 55);
+}
+
+.button.operation:active{
+    background-color: rgb(226, 152, 55, 0.6);
+}
