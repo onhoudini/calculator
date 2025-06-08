@@ -6,10 +6,14 @@ First of all, I'm sorry for my poor english. I will try write everything in engl
 
 A fun fact, if some native english read this. I guess some people joke about something like "the guy that says 'i'm sorry for poor english' before speak something 'gallant'/'far-fetched', because some languages, like portuguese, are very based in latin, so when we try to translate the words of our language to english(the natural way of learning another language) they seems far-fetched. Far-fetched surely is a word that I never read before in english, but reminded me of the pokemon.
 
-
 ## Goal
 
 This project goal is practice react creating a responsive(in multiple meanings) page with a simple calculator. I will in the future improve this project, so, it's still on progress.
+
+## How it seems (if you don't want to run)
+
+![Image](./page-screenshot.png)
+
 
 ## Future Fixes and Improvements
 
