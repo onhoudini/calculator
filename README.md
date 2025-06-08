@@ -20,6 +20,13 @@ This project goal is practice react creating a responsive(in multiple meanings) 
 Fix the "- 0.5", the 0 is going 'invisible'
 Verify if eval really will not give problems with try catch.
 
+# Fixed Things
+
+There is a strange error in operations that I had to see urgently.
+
+    The problemas was in "if(isNaN(values[0]) || isFinite(values[0]))",
+    I don't know if I forget to put ! or if I for some reason delete the exclamation
+
 ## Template
 
 Vite + React
@@ -27,6 +34,5 @@ Vite + React
 # How to Run
 
 npm install
+
 npm run dev
-
-

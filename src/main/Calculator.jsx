@@ -38,7 +38,7 @@ export default class Calculador extends Component {
                 */}
             try{
                 values[0] = eval(`${values[0]} ${currentOperation} ${values[1]}`)
-                if(isNaN(values[0]) || isFinite(values[0])){
+                if(isNaN(values[0]) || !isFinite(values[0])){
                     this.clearMemory()
                     return
                 }
